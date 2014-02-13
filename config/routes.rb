@@ -1,4 +1,5 @@
 Pinteresting::Application.routes.draw do
+  devise_for :users
   root "page#home"
   get "about" => "page#about"
   get "launch" => "page#launch"
