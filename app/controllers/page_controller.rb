@@ -4,4 +4,8 @@ class PageController < ApplicationController
 
   def about
   end
+  
+  def launch
+  end
+
 end

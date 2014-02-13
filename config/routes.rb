@@ -1,6 +1,7 @@
 Pinteresting::Application.routes.draw do
   root "page#home"
   get "about" => "page#about"
+  get "launch" => "page#launch"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
