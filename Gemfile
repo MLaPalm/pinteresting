@@ -48,6 +48,11 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'jquery-turbolinks'
+
+# Masonry gem for flexible layouts
+gem 'masonry-rails', '~> 0.2.0'
+
 #Heroku Gem
 group :development, :test do
      gem 'sqlite3'
