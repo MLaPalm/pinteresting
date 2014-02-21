@@ -60,3 +60,6 @@ end
 
 #Bootstrap gem
 gem 'bootstrap-sass'
+
+#Amazon S3 gem for paperclip
+gem 'aws-sdk', '~> 1.20.0'
